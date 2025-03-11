@@ -97,6 +97,23 @@ console.log(mean(data)); // 3
 console.log(median(data)); // 3
 ```
 
+## Project Structure
+
+```
+engineering-cal/
+├── src/
+│   ├── electrical/     # Electrical engineering calculations
+│   ├── mechanical/     # Mechanical engineering calculations
+│   ├── statistics/     # Statistical functions
+│   ├── utils/          # Utility functions (e.g., unit conversions)
+│   └── index.ts        # Main entry point
+├── __tests__/          # Test files
+├── dist/               # Compiled JavaScript files (generated)
+├── package.json        # Project configuration
+├── tsconfig.json       # TypeScript configuration
+└── README.md           # This file
+```
+
 ## Development
 
 ### Prerequisites

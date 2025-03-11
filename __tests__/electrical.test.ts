@@ -8,7 +8,7 @@ import {
   calculatePowerFromVoltageAndResistance,
   calculateEnergy,
   calculateVoltageDrop
-} from '../src/electrical';
+} from '../src/electrical/electrical';
 
 describe('Electrical Calculations', () => {
   describe('resistorCalculator', () => {

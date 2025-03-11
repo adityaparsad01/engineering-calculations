@@ -1,18 +1,37 @@
 {
-    "name": "engineering-calculations",
-    "version": "1.0.0",
-    "main": "index.js",
+    "name": "engineering-cal",
+    "version": "1.1.1",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist/**/*.js",
+        "dist/**/*.d.ts",
+        "!dist/**/*.test.js",
+        "README.md",
+        "LICENSE"
+    ],
     "scripts": {
         "build": "tsc",
         "test": "jest",
         "lint": "eslint 'src/**/*.{ts,tsx}'",
-        "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx,json,md}'"
+        "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx,json,md}'",
+        "prepublishOnly": "npm run build"
     },
-    "keywords": [],
+    "keywords": [
+        "engineering",
+        "calculations",
+        "electrical",
+        "mechanical",
+        "statistics",
+        "unit conversion"
+    ],
     "author": "",
     "license": "ISC",
-    "description": "",
+    "description": "A TypeScript library for common engineering calculations across various disciplines.",
     "devDependencies": {
+        "@types/jest": "^29.5.14",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.2.6",
         "typescript": "^5.8.2"
     }
 }

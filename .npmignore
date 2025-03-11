@@ -1,4 +1,5 @@
 # Source code (TypeScript)
+src/
 # We don't exclude *.ts files because we want to include type definitions
 
 # Tests
@@ -13,6 +14,7 @@ jest.config.js
 .gitignore
 .prettierrc
 eslint.config.mjs
+tsconfig.json
 
 # IDE and editor files
 .idea/

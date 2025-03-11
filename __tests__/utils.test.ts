@@ -1,4 +1,4 @@
-import { convertLength } from '../src/units';
+import { convertLength } from '../src/utils/units';
 
 describe('convertLength', () => {
   it('should convert meters to feet correctly', () => {
