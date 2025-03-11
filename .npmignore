@@ -1,0 +1,28 @@
+# Source code (TypeScript)
+# We don't exclude *.ts files because we want to include type definitions
+
+# Tests
+__tests__/
+*.test.js
+*.test.ts
+jest.config.js
+
+# Development files
+.github/
+.git/
+.gitignore
+.prettierrc
+eslint.config.mjs
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/ 
